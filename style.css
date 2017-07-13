@@ -26,10 +26,11 @@
 
 .div {
   border: 1px solid aqua;
-  width: 32%;
-  height: 32%;
+  width: 33.3%;
+
+  box-sizing: border-box;
 }
 
 .div1 {
-  width: 62%;
+  width: 66.6%;
 }
