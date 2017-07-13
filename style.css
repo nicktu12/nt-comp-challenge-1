@@ -1,7 +1,15 @@
 /*TABLE OF CONTENTS*/
 
+/*HTML ELEMENTS*/
 /*CONTAINER*/
 /*FLEX DIVS*/
+
+/*HTML ELEMENTS*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
 
 /*CONTAINER*/
 
@@ -9,10 +17,19 @@
   width: 62.5%;
   height: 100vh;
   border: 1px solid magenta;
+
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /*FLEX DIVS*/
 
 .div {
   border: 1px solid aqua;
+  width: 32%;
+  height: 32%;
+}
+
+.div1 {
+  width: 62%;
 }
