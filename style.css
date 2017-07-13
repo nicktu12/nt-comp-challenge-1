@@ -1,0 +1,18 @@
+/*TABLE OF CONTENTS*/
+
+/*CONTAINER*/
+/*FLEX DIVS*/
+
+/*CONTAINER*/
+
+.container {
+  width: 62.5%;
+  height: 100vh;
+  border: 1px solid magenta;
+}
+
+/*FLEX DIVS*/
+
+.div {
+  border: 1px solid aqua;
+}
