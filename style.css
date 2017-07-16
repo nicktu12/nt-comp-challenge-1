@@ -1,21 +1,39 @@
 /*TABLE OF CONTENTS*/
 
 /*HTML ELEMENTS*/
-/*CONTAINER*/
+/*CONTAINERS*/
 /*FLEX DIVS*/
+/*IMAGE PROPERTIES*/
+/*BASE COLORS*/
 
 /*HTML ELEMENTS*/
 
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 body {
   display: flex;
 }
 
-/*CONTAINER*/
+h1 {
+  padding-left: 30px;
+  padding-top: 30px;
+  margin-bottom: -4px;
+  color: #FFF2EA;
+  font-size: 5em;
+  letter-spacing: -5px;
+}
+
+h2 {
+  padding-left: 35px;
+  line-height: 0px;
+  color: #EFD4C4;
+}
+
+/*CONTAINERS*/
 
 .container {
   width: 62.5%;
@@ -28,7 +46,7 @@ body {
   width: 37.5%;
   height: 100vh;
   background-size: cover;
-  background-position-x: 15%;
+  background-position-x: 9%;
   display: inline-block;
 }
 
@@ -37,14 +55,13 @@ body {
 .div {
   width: 33.3%;
   height: 33.3vh;
-
-  box-sizing: border-box;
 }
 
 .div1 {
   width: 66.6%;
-  display: flex;
-  align-items: center;
+  /*display: flex;
+  flex-direction: column;
+  align-content: center;*/
 }
 
 .div2,
@@ -53,22 +70,66 @@ body {
   width: 33.4%;
 }
 
+.div3,
+.div4,
+.div5 {
+  height: 33.4vh;
+}
+
+.sqdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+/*IMAGE PROPERTIES*/
+
+.icon {
+  height: 70px;
+  width: 70px;
+  padding: 20px;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 900px) {
+
+  .hero {
+    order: -1;
+    width: 100%;
+    height: 50vh;
+    background-image: url('edgar6.png');
+    background-position-y: 75%;
+    background-repeat: no-repeat;
+  }
+
+  body {
+    flex-direction: column;
+  }
+
+  .container {
+    width: 100%;
+  }
+}
+
 /*BASE COLORS*/
 
 .div1 {
-  background: linear-gradient(to right, #406D63 , #7E9A94)
+  background: linear-gradient(to right, #295249 , #7E9A94)
 }
 .div2 {
   background-color: #B0C0BD
 }
 .div3 {
-  background-color: #C68C8F
+  background-color: #A76265
 }
 .div4 {
-  background-color: #EBC0C2
+  background-color: #C68C8F
 }
 .div5 {
-  background-color: #FCE7E8
+  background-color: #EBC0C2
 }
 .div6 {
   background-color: #7AA575
@@ -79,3 +140,5 @@ body {
 .div8 {
   background-color: #CEDFCC
 }
+
+/*http://paletton.com/#uid=75B0p0k9opi2FEN5MtYdclifXfZ*/
