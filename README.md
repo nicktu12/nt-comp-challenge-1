@@ -7,5 +7,6 @@ In order to maintain a smooth, easily navigable layout, I swapped hero images on
 
 ### Original Comp:
 <img width="984" alt="screen shot 2017-07-18 at 9 59 20 am" src="https://user-images.githubusercontent.com/26471447/28327381-765ce6f6-6ba0-11e7-9eb7-6d587b089ebf.png">
+
 ### My version:
 <img width="1265" alt="screen shot 2017-07-18 at 9 59 35 am" src="https://user-images.githubusercontent.com/26471447/28327380-764cd586-6ba0-11e7-8dd9-1bbb08880779.png">
