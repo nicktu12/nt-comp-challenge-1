@@ -20,7 +20,7 @@ body {
 
 h1 {
   padding-left: 30px;
-  padding-top: 30px;
+  padding-top: 10px;
   margin-bottom: -4px;
   color: #FFF2EA;
   font-size: 5em;
@@ -35,13 +35,25 @@ h2 {
 
 p {
   padding-left: 35px;
-  margin-top: 7%;
+  margin-top: 22px;
   color: #FFF2EA;
 }
 
 img {
   width: 15px;
   padding-right: 5px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  width: 120px;
+  height: 40px;
+  margin-right: 10px;
+  margin-top: 12px;
 }
 
 /*CONTAINERS*/
@@ -64,17 +76,6 @@ img {
 .button-container {
   padding-left: 35px;
   display: flex;
-}
-
-button {
-  display: flex;
-  align-items: center;
-  background: none;
-  border: 2px solid #ffffff;
-  color: #ffffff;
-  width: 120px;
-  height: 40px;
-  margin-right: 2%;
 }
 
 /*FLEX DIVS*/
@@ -119,9 +120,38 @@ button {
   padding: 20px;
 }
 
+.back-btn {
+  vertical-align: middle;
+  height: 100%;
+  width: 70px;
+  opacity: .5;
+  margin-left: 3%;
+}
+
+.next-btn {
+  vertical-align: middle;
+  height: 100%;
+  width: 70px;
+  opacity: .5;
+  margin-right: 3%;
+  float: right;
+}
+
+.more-btn {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 35px;
+  opacity: .5;
+}
+
+.button-img {
+  padding-left: 8px;
+}
+
 /*MEDIA QUERIES*/
 
-@media screen and (max-width: 900px) {
+@media only screen and (max-width: 900px) {
 
   .hero {
     order: -1;
@@ -132,6 +162,10 @@ button {
     background-repeat: no-repeat;
   }
 
+  div {
+    min-height: 50px;
+  }
+
   body {
     flex-direction: column;
   }
@@ -139,6 +173,56 @@ button {
   .container {
     width: 100%;
   }
+
+  h1 {
+    padding-left: 12px;
+    padding-top: 5px;
+    margin-bottom: -4px;
+    color: #FFF2EA;
+    font-size: 4em;
+    letter-spacing: -5px;
+  }
+
+  h2 {
+    padding-left: 17px;
+    line-height: 0px;
+    font-size: 1em;
+    color: #EFD4C4;
+  }
+
+  p {
+    padding-left: 18px;
+    margin-top: 22px;
+    color: #FFF2EA;
+    font-size: .8em;
+  }
+
+  button {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    width: 80px;
+    height: 35px;
+    margin-right: 10px;
+    margin-top: 12px;
+  }
+
+  .button-container {
+    padding-left: 19px;
+    /*display: flex;*/
+  }
+
+}
+
+@media only screen and (max-width: 900px) {
+
+  .div {
+    min-height: 180px;
+    max-height: 180px;
+  }
+
 }
 
 /*BASE COLORS*/
