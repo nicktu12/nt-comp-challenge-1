@@ -16,6 +16,9 @@
 
 body {
   display: flex;
+  margin: 8px;
+  background-color: #7E9A94;
+  box-sizing: content-box;
 }
 
 h1 {
@@ -153,6 +156,12 @@ button {
 
 .reddit-img {
   padding-left: 28px;
+}
+
+.icon:hover,
+h3,
+button {
+  cursor: pointer;
 }
 
 /*MEDIA QUERIES*/
